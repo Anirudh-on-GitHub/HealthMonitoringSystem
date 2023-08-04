@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to Patient Data Portal</h1>
+    <form method="post" action="">
+        {% csrf_token %}
+        <label for="patient_id">Enter Patient ID:</label>
+        <input type="text" name="patient_id" id="patient_id">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
